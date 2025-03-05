@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bzWm4TkLIZudS2IZrPUkhuSTnUQqp35ScEbSsPBo6gHFJ+UVAYUiW8cmqbfQG1OC4d8aRBaTcWyHUyxOZnhJtA==",
+  "dgSpecHash": "4z0YFDY7ZQ7m97ELaYdjqnQ8WQQAJu4G6wno7jE52xfjuoc8T++4Zc0pnL366EN79T8jsVZw7Hb7wNT2LE7NPw==",
   "success": true,
-  "projectFilePath": "D:\\פרויקטים\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "D:\\פרויקטים\\gitServer\\ToDo_Server\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Miri\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",

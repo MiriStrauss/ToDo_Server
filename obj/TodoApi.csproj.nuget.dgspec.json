@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\פרויקטים\\TodoApi\\TodoApi.csproj": {}
+    "D:\\פרויקטים\\gitServer\\ToDo_Server\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\פרויקטים\\TodoApi\\TodoApi.csproj": {
+    "D:\\פרויקטים\\gitServer\\ToDo_Server\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\פרויקטים\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\פרויקטים\\gitServer\\ToDo_Server\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\פרויקטים\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\פרויקטים\\gitServer\\ToDo_Server\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\Miri\\.nuget\\packages\\",
-        "outputPath": "D:\\פרויקטים\\TodoApi\\obj\\",
+        "outputPath": "D:\\פרויקטים\\gitServer\\ToDo_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
