@@ -82,11 +82,12 @@ app.UseAuthorization();
 app.MapControllers();
 // הוספת Swagger
 app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "To do ");
-    c.RoutePrefix = string.Empty; // כדי לגשת ל-Swagger בכתובת הבית
-});
+app.UseSwaggerUI();
+// app.UseSwaggerUI(c =>
+// {
+//     c.SwaggerEndpoint("/swagger/v1/swagger.json", "To do ");
+//     c.RoutePrefix = string.Empty; // כדי לגשת ל-Swagger בכתובת הבית
+// });
 
 // Routes
 // [Route("api/[controller]")]
@@ -194,6 +195,7 @@ return Results.Unauthorized();
 app.MapGet("/users", (ToDoDbContext db) => db.Users.ToListAsync());
 //מידע על האפליקציה- אמור ליהות אמיתי
 app.MapGet("/info", () => "פרויקט פרקטיקוד 3\nיוצר: מירי שטראוס ");
+app.MapGet("/", () => "פרויקט פרקטיקוד 4\nיוצר: מירי שטראוס ");
 
 
 
