@@ -71,7 +71,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // שימוש במדיניות CORS
-app.UseCors("AllowSpecificOrigin");
+// app.UseCors("AllowSpecificOrigin");
 app.UseCors("AllowAllOrigins");
 
 app.UseRouting();
