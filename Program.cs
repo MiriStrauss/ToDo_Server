@@ -166,15 +166,16 @@ app.MapPost("/login", async (ToDoDbContext db, User user) =>
 // הרשמה
 app.MapPost("/addUser", async (ToDoDbContext db, User user) =>
 {
-    var myUser = await db.Users.Where(x => x.IdUsers == user.IdUsers).ToListAsync(); // השתנה ל-ToListAsync
-    if (myUser.Count == 0)
-    {
-        await db.Users.AddAsync(user);
-        await db.SaveChangesAsync();
-        var jwt = createJwt(user);
-        return Results.Ok(jwt);
-    }
-    return Results.Unauthorized();
+    System.Console.WriteLine("uuuuuuuuuu");
+    // var myUser = await db.Users.Where(x => x.IdUsers == user.IdUsers).ToListAsync(); // השתנה ל-ToListAsync
+    // if (myUser.Count == 0)
+    // {    
+    //     await db.Users.AddAsync(user);
+    //     await db.SaveChangesAsync();
+    //     var jwt = createJwt(user);
+    //     return Results.Ok(jwt);
+    // }
+    // return Results.Unauthorized();
 });
 
 // שליפת המשתמשים
