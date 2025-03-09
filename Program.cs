@@ -71,10 +71,11 @@ if (app.Environment.IsDevelopment())
 }
 
 // שימוש במדיניות CORS
-// app.UseCors("AllowAllOrigins");
 app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAllOrigins");
 
 app.UseRouting();
+
 app.UseAuthentication(); 
 app.UseAuthorization();
 app.MapControllers();
