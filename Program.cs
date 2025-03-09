@@ -381,7 +381,7 @@ return Results.Unauthorized();
 //שליפת המשתמשים
 app.MapGet("/users", (ToDoDbContext db) => db.Users.ToListAsync());
 //מידע על האפליקציה- אמור ליהות אמיתי
-app.MapGet("/", () => "פרויקט פרקטיקוד 4\nיוצר: מירי שטראוס ");
+app.MapGet("/info", () => "פרויקט פרקטיקוד 3\nיוצר: מירי שטראוס ");
 
 
 
