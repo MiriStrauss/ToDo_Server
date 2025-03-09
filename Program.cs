@@ -195,7 +195,7 @@ return Results.Unauthorized();
 app.MapGet("/users", (ToDoDbContext db) => db.Users.ToListAsync());
 //מידע על האפליקציה- אמור ליהות אמיתי
 app.MapGet("/info", () => "פרויקט פרקטיקוד 3\nיוצר: מירי שטראוס ");
-app.MapGet("/", () => "פרויקט פרקטיקוד 4\nיוצר: מירי שטראוס ");
+// app.MapGet("/", () => "פרויקט פרקטיקוד 4\nיוצר: מירי שטראוס ");
 
 
 
