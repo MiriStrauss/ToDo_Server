@@ -16,21 +16,21 @@ builder.Services.AddDbContext<ToDoDbContext>(options =>
     new MySqlServerVersion(new Version(8, 0, 21))));
 
 // הוספת CORS
-// builder.Services.AddCors(options =>
-// {
-//     options.AddPolicy("AllowAllOrigins",
-//         builder => builder.AllowAnyOrigin()
-//                           .AllowAnyMethod()
-//                           .AllowAnyHeader());
-// });
-
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("https://to-do-client1-p1w5.onrender.com")
+    options.AddPolicy("AllowAllOrigins",
+        builder => builder.AllowAnyOrigin()
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
+
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowSpecificOrigin",
+//         builder => builder.WithOrigins("https://to-do-client1-p1w5.onrender.com")
+//                           .AllowAnyMethod()
+//                           .AllowAnyHeader());
+// });
 
 // הוספת Controllers
 builder.Services.AddControllers();
@@ -71,7 +71,8 @@ if (app.Environment.IsDevelopment())
 }
 
 // שימוש במדיניות CORS
-app.UseCors("AllowAllOrigins");
+// app.UseCors("AllowAllOrigins");
+app.UseCors("AllowSpecificOrigin");
 
 app.UseRouting();
 app.UseAuthentication(); 
