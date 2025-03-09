@@ -24,6 +24,14 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("https://to-do-client1-p1w5.onrender.com")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
 // הוספת Controllers
 builder.Services.AddControllers();
 
