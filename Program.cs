@@ -192,7 +192,10 @@ return Results.Unauthorized();
 
 
 //שליפת המשתמשים
-app.MapGet("/users", (ToDoDbContext db) => db.Users.ToListAsync());
+// app.MapGet("/users", (ToDoDbContext db) => db.Users.ToListAsync());
+app.MapGet("/users", async (ToDoDbContext db) => await db.Users.ToListAsync())
+    .Produces<List<User>>(StatusCodes.Status200OK)
+    .Produces(StatusCodes.Status404NotFound);
 //מידע על האפליקציה- אמור ליהות אמיתי
 app.MapGet("/info", () => "פרויקט פרקטיקוד 3\nיוצר: מירי שטראוס ");
 app.MapGet("/", () => "פרויקט פרקטיקוד 4\nיוצר: מירי שטראוס ");
