@@ -132,9 +132,13 @@ D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets.pack.
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets.build.json
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets.development.json
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\scopedcss\bundle\TodoApi.styles.css
-D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.csproj.CopyComplete
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.dll
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\refint\TodoApi.dll
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.pdb
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.genruntimeconfig.cache
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\ref\TodoApi.dll
+D:\פרויקטים\gitServer\ToDo_Server\bin\Debug\net7.0\TodoApi.staticwebassets.endpoints.json
+D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.sourcelink.json
+D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets\msbuild.TodoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.csproj.Up2Date
