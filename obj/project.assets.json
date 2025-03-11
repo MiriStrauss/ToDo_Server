@@ -269,6 +269,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/7.0.20": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.WebUtilities/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -1419,6 +1438,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
         "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.OpenApi/7.0.20": {
+      "sha512": "coCi7bh16o4B2qKbD7fng+4m1vu51L9MzTW+9NZp3NvLgAurDMT1kOg2uuycCN4BtEz3EYXlfJMJ2hK6EU7ISQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/7.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
     "Microsoft.AspNetCore.WebUtilities/2.3.0": {
@@ -3272,6 +3306,7 @@
       "Microsoft.AspNetCore.Authentication >= 2.3.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.*",
       "Microsoft.AspNetCore.Cors >= 2.3.0",
+      "Microsoft.AspNetCore.OpenApi >= 7.*",
       "Microsoft.EntityFrameworkCore >= 7.*",
       "Microsoft.EntityFrameworkCore.Design >= 7.*",
       "Microsoft.EntityFrameworkCore.Tools >= 7.*",
@@ -3344,6 +3379,10 @@
           "Microsoft.AspNetCore.Cors": {
             "target": "Package",
             "version": "[2.3.0, )"
+          },
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[7.*, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

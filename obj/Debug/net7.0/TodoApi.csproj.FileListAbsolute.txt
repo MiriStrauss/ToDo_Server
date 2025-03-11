@@ -142,3 +142,6 @@ D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.sourcelink.js
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets.build.endpoints.json
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\staticwebassets\msbuild.TodoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 D:\פרויקטים\gitServer\ToDo_Server\obj\Debug\net7.0\TodoApi.csproj.Up2Date
+D:\פרויקטים\gitServer\ToDo_Server\bin\Debug\net7.0\package-lock.json
+D:\פרויקטים\gitServer\ToDo_Server\bin\Debug\net7.0\package.json
+D:\פרויקטים\gitServer\ToDo_Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
