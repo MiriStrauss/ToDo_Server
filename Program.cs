@@ -283,9 +283,16 @@ var app = builder.Build();
 app.UseCors("AllowAllOrigins");
 // app.UseCors("AllowSpecificOrigin");
 // if (app.Environment.IsDevelopment())
-// {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+// // {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty; // כדי לגשת ל-Swagger בכתובת הבית
+});
+
 // }
 if (app.Environment.IsDevelopment())
 {
